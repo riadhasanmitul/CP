@@ -11,7 +11,7 @@ int main()
 {
 	init_code();
 	int a, b;
-	a = 4121; b = 4121;
-	cout << !(a ^ b) << endl;
+	a = 8; b = 4;
+	cout << (a ^ b) << endl;
 	return 0;
 }
